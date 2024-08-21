@@ -1,0 +1,755 @@
+*{
+    margin: 0;
+    max-width: 100%;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+
+
+#menu-toggle, .menu-icon{
+    display: none;
+}
+
+#menu-toggle-dos, .menu-items-dos{
+    display: none;
+}
+
+#menu-toggle-dos:checked + .menu-icon-dos + .menu-items-dos {
+    display: flex;
+    margin-right: -5em;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+.sesion-uno{
+text-align: center;
+font-size: 12px;
+background-color: #efb810;
+font-family: "Playwrite CU", cursive;
+width: 100%;
+}
+
+
+.sesion-uno p:hover{
+    background-color: #9c9b9b;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.sesion-dos ul{
+    display: none;
+}
+
+
+.sesion-dos-prt-dos{
+    
+    display: flex;
+    margin: 1em;
+    width: 96%;
+}
+
+.sesion-dos-prt-dos nav{
+    width: 100%;
+}
+
+.prt-dos a{
+    
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: -40em;
+}
+
+.prt-uno a{
+    
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.prt-uno{
+    padding-left: 43%;
+    
+}
+
+.prt-dos{
+    padding-left: 33%;
+}
+
+
+.sesion-dos-prt-dos a:hover {
+    color: #9c9b9b;  
+    list-style-type: none;
+}
+
+.menu-items-dos{
+    width: 5%;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.contenedor-menu-tems-dos{
+    text-align: right;
+    margin-top: -1.5em;
+    margin-left: 0.5em;
+    
+}
+
+
+
+.sesion-dos-prt-dos a{
+    color: #efb810;  
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: bold;
+}
+
+.sesion-dos-prt-dos h2{
+    color: #efb810;  
+    font-family: "Playwrite CU";
+    font-size: bold;
+    font-size: 15px;
+}
+
+
+.img-sesion-dos{
+    
+    width: 96%;
+    margin: 0 1em 0 1em;
+    text-align: right;
+}
+
+.imagen-sesion-dos{
+    width: 3%;
+    text-align: right;
+}
+
+.menu-icon-dos:hover{
+    color: #9c9b9b;
+}
+
+.menu-icon-dos{
+    color: #efb810;  
+}
+
+
+
+
+
+
+
+
+/*Mujer*/
+
+.prt-uno h2{
+    color: #efb810;  
+    font-family: "Playwrite CU";
+    font-size: bold;
+    font-size: 15px;
+    
+}
+
+
+.prt-uno p{
+    color: #9c9b9b;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: bold;
+    font-size: 10px;
+}
+
+.prt-uno{
+    margin: 1em;
+}
+
+.mujer-sesion-dos{
+    width: 96%;
+    margin: 1em;
+    display: flex;
+}
+
+.img-mujer-sesion-dos{
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.imagen-mujer-sesion-dos{
+    width: 40%;
+    text-align: center;
+    
+}
+
+
+/*Hombre*/
+
+
+.hombre-sesion-dos{
+    width: 96%;
+    margin: 1em;
+    display: flex;
+}
+
+.img-hombre-sesion-dos{
+    display: inline-block;
+    width: 60%;
+    
+}
+
+.imagen-hombre-sesion-dos{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+/*Tienda*/
+.sesion-dos-tienda{
+    width: 100%;
+    
+    margin-top: 1em;
+}
+.imagen-tienda-sesion-dos{
+    width: 100%;
+}
+
+.mapa p{
+    text-align: center;
+    font-family: "Playwrite CU", cursive;
+    color: #9c9b9b;
+    padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sesion-tres{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+
+
+.sesion-tres-img-1{
+    width: 23%;
+    display: inline-block;
+    
+}
+
+.sesion-tres-img-2{
+    width: 23%;
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.sesion-tres-img-2 p{
+    position: absolute;
+    font-size: 4em;
+    font-weight: bold;
+    top: 50%;
+    left: 41%;
+    font-size: 3em;
+    color: #efb810;
+    font-family: "Playwrite CU", cursive;
+}
+
+.sesion-tres-parrafo{
+    color: black;
+}
+
+.sesion-tres-img-3{
+    width: 23%;
+    display: inline-block;
+}
+
+.sesion-tres-img-4{
+    width: 23%;
+    display: inline-block;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sesion-cuatro{
+    width: 94%;
+    margin: 2em ;
+    
+    display: flex;  
+    justify-content: space-around;
+    
+}
+
+.sesion-cuatro a:hover{
+    color: #efb810;
+}
+
+.h3_1, .h3_2{
+    
+    padding-left: 2em;
+    font-family: "Kanit", sans-serif;
+}
+
+.sesion-cuatro h3{
+    color:gray;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+.sesion-cuatro a{
+    text-decoration: none;
+    text-align: left;
+    color: #9c9b9b;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    
+}
+
+.sesion-cuatro li{
+    list-style-type: none;
+}
+
+
+.sesion-cuatro-p1{
+    
+    text-align: left; 
+}
+
+.sesion-cuatro-p2{
+    
+    text-align: left;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.menu-toggle-dos{
+    display: none;
+}
+
+.sesion-cinco{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;  
+    margin-top: 2em;
+    
+}
+
+.sesion-cinco a:hover{
+    color: #efb810;
+}
+
+.sesion-cinco a{
+    text-decoration: none;
+    color: #9c9b9b;
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+    
+    
+}
+
+.sesion-cinco li{
+    list-style: none;
+    
+    display:inline-block;
+    padding-top: 1em;
+    margin: 0em 3em;
+    
+    
+}
+
+.imagen-footer{
+    
+    width: 30%;
+    
+}
+
+.sesion-cinco-li{
+    
+    width: 100%;
+    display: flex;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width: 999px) {
+    body{
+        background-color: rgb(0, 0, 0);
+
+    }
+    .sesion-tres-img-2 p{
+        top: 1.5em;
+        left: 4.5em;
+        
+    }
+
+    .prt-uno{
+        padding-left: 25%; 
+    }
+
+    
+
+    .prt-dos{
+        padding-left: 20%;
+    }
+
+    .sesion-tres-parrafo{
+        color: #efb810; 
+    }
+
+    .img-sesion-dos{
+        width: 96%;
+        margin-top: 1em;
+    }
+
+    
+
+    .imagen-sesion-dos{
+        width: 10%;
+    }
+
+
+    .sesion-cinco li{
+        margin: 0em 0.5em;
+        justify-content: space-around;
+    }
+    
+    .sesion-cinco a{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:599px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .menu-items{
+        background-color: black;
+        display: none;
+    }
+
+    .menu-icon:hover{
+        color: #9c9b9b;
+    }
+
+    .menu-icon-dos{
+        display: none;
+    }
+
+    .menu-icon{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin: 0.5em;
+    }
+
+    .bot-sesion-dos{
+        margin-right: 30%;
+        padding-top: 1em;
+    }
+
+    .bot-sesion-dos-especial{
+        padding-top: 1em;
+        
+    }
+
+    .prt-uno h2, p{
+        text-align: center;
+    }
+
+
+
+    .imagen-sesion-dos{
+        width: 10%;
+        margin: 1em;
+    }
+
+    .sesion-dos{
+        margin: 1em 2em 1em 0.3em ;
+    }
+
+
+    .sesion-dos-prt-dos{
+        width: 93%;
+    }
+    .prt-uno{
+        padding-left: 10%;
+    }
+
+    .prt-dos{
+        padding-left: 23%;
+    }
+    
+
+    .sesion-cuatro{
+        margin: 2em 2em 2em 1em ;
+    }
+
+    .sesion-cuatro a{
+        font-size: 12px;
+    }
+
+    .sesion-cuatro h3{
+        font-size: 12px;
+    }
+
+    .sesion-tres{
+        margin: 2em 2em 2em 0.3em ;
+
+    }
+
+    .sesion-tres-img-2 p{
+        top: 10.3em;
+        left: 5.5em;
+        font-size: 30px;
+    }
+
+    .sesion-cinco a{
+        font-size: 10px;
+    }
+
+
+    #menu-toggle:checked + .menu-icon + .menu-items {
+        display: inline-block;
+    }
+
+    .menu-icon{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+/*Ver*/
+
+.ver{
+    display: flex;
+    width: 90%;
+    margin: 2em 4em 0em 4em;
+}
+
+.ver-dos{
+    display: flex;
+    width: 56.5%;
+    margin-left: 4em;
+}
+
+.img-ver{
+    display: inline-block;
+}
+
+.descripcion{
+    padding-left: 10em;
+    width: 50%;
+}
+
+.ses-uno h2{
+    color: #efb810;
+    font-family: "Playwrite CU", cursive;
+    font-size: 10px;
+}
+
+form button, h3{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    color: #9c9b9b;
+    
+}
+
+.ses-uno p{
+    padding-bottom: 0.5em;
+}
+
+.color{
+    padding-top: 0.5em;
+}
+
+#formulario button{
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
